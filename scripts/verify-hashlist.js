@@ -19,7 +19,7 @@ const SPKI_ED25519_PREFIX = Buffer.from('302a300506032b6570032100', 'hex');
 // Must match SIGNING.md and the set consumers pin. Any one of them verifying is enough, which is
 // what lets a second key take over without updating consumers.
 const PINNED_PUBLIC_KEYS = [
-  '3023cb5e01dc22257ac5c31c4d12106cd0d58fa2005f867b3fdc5d303f6446ec', // 1, CI
+  'd4b4591e5109c6512820f60f22c1ae61d0d8e0f7df7c2f3e51daeb573fc79063', // 1, CI
   'fee7b0ccf2323954af68a249eaa61f957239eb222329e08a5b6a50ced649bae8', // 2, cold
 ];
 

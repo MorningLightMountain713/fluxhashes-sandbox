@@ -1,5 +1,12 @@
 {
-  "hashes": {},
+  "hashes": {
+    "13a9732d0be01afa021d440257c177cf": {
+      "published": "2026-08-17",
+      "commit": "5547492120f314b312d492929364beb9c53b857c",
+      "branch": "development",
+      "tag": null
+    }
+  },
   "signed": {
     "seq": 1,
     "issued_at": "2026-08-17T09:40:20.562Z"

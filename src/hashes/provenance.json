@@ -1308,10 +1308,11 @@
     "issued_at": "2026-08-24T10:03:29.436Z"
   },
   "commits": {
-    "1c3960ab7cd8338c3fc3083b7e4e7f604ab09e97": "a5999d43df8733d338bcea6c11cfff9a"
+    "1c3960ab7cd8338c3fc3083b7e4e7f604ab09e97": "a5999d43df8733d338bcea6c11cfff9a",
+    "c5e06e6c6bb10fec7dac53b7d7d5530940704f6e": "a5999d43df8733d338bcea6c11cfff9a"
   },
   "refs": {
-    "refs/heads/development": "1c3960ab7cd8338c3fc3083b7e4e7f604ab09e97",
+    "refs/heads/development": "c5e06e6c6bb10fec7dac53b7d7d5530940704f6e",
     "refs/heads/master": "c839c6066c779dea0f0e72f4e6caa41cd45ee171",
     "refs/tags/v8.17.2": "c839c6066c779dea0f0e72f4e6caa41cd45ee171"
   }

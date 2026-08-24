@@ -1,0 +1,12 @@
+name: zz-proof-envgate
+on: workflow_dispatch
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    environment: zz-signing-proof
+    steps:
+      - name: Report whether the environment secret is visible
+        env:
+          S: ${{ secrets.ZZ_PROOF_SECRET }}
+        run: |
+          if [ -n "$S" ]; then echo "SECRET VISIBLE (length ${#S})"; else echo "SECRET EMPTY"; exit 1; fi

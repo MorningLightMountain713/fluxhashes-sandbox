@@ -1,0 +1,15 @@
+name: zz-proof-ruleset-push
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Empty commit to master with GITHUB_TOKEN
+        run: |
+          git config user.name zz-proof
+          git config user.email zz-proof@example.invalid
+          git commit --allow-empty -m "zz-proof: GITHUB_TOKEN push through ruleset bypass"
+          git push origin HEAD:master

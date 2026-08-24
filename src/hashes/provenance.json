@@ -29,6 +29,12 @@
       "commit": "ebf3bfcd5f51f51b9a06fab5efce4ad462da6966",
       "branch": "rehearsal-race",
       "tag": null
+    },
+    "7090b4a8bd5bcb7ce85f10f1702cd41a": {
+      "published": "2026-08-24",
+      "commit": "a585d9386749e13d49263b00cc2cc9ceb5335cea",
+      "branch": "rehearsal-race2",
+      "tag": null
     }
   },
   "signed": {

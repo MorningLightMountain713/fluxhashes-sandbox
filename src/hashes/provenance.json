@@ -5,6 +5,12 @@
       "commit": "5547492120f314b312d492929364beb9c53b857c",
       "branch": "development",
       "tag": "v8.17.2"
+    },
+    "3ccc91295b0fca22fa03b1ecb6482ae8": {
+      "published": "2026-08-24",
+      "commit": "abe2dd403f9009ce1e46b7604ced1302e598b8fb",
+      "branch": "development",
+      "tag": null
     }
   },
   "signed": {

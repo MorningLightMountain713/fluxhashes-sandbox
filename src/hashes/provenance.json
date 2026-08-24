@@ -1304,8 +1304,8 @@
     }
   },
   "signed": {
-    "seq": 8,
-    "issued_at": "2026-08-24T10:03:29.436Z"
+    "seq": 9,
+    "issued_at": "2026-08-24T10:09:44.765Z"
   },
   "commits": {
     "1c3960ab7cd8338c3fc3083b7e4e7f604ab09e97": "a5999d43df8733d338bcea6c11cfff9a",

@@ -66,6 +66,7 @@ jobs:
       # makes that a red run rather than a document that looks published and satisfies nobody.
       - name: Reconcile, sign and publish
         env:
+          FLUX_REMOTE: https://github.com/MorningLightMountain713/flux-sandbox  # SANDBOX ONLY
           HASHLIST_SIGNING_SEED_B64: ${{ secrets.HASHLIST_SIGNING_SEED_B64 }}
           HASHLIST_DEPLOY_KEY: ${{ secrets.HASHLIST_DEPLOY_KEY }}
           DISPATCH_COMMIT: ${{ inputs.commit }}

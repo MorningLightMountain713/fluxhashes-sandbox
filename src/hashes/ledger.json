@@ -1,3 +1,9 @@
 {
-  "culls": []
+  "culls": [
+    {
+      "hash": "dd3dfecedbcc10c2caa6ca1d21944884",
+      "reason": "rehearsal cull of a grandfathered entry",
+      "date": "2026-08-24"
+    }
+  ]
 }
